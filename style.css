@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: peru;
+}
+.firstDiv ,.secondDiv{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+#weatherInfo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#cityName , #searchBtn ,.firstDiv > button {
+    padding: 10px 20px 10px;
+    font-size: 2em;
+    border: none;
+    border-radius: 10px;
+}
+#searchBtn{
+    cursor: pointer;
+}
+
+.firstDiv > button{
+    width: 100%;
+    cursor: pointer;
+}
+ 
+.firstDiv > p {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#temp{
+    font-size: 2em;
+}
+#city{
+    font-size: 2em;
+}
+
+.otherInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wind > p{}
